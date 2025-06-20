@@ -92,6 +92,15 @@ section h2 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
+/* My Journey Section */
+#my-journey {
+  background-color: #f2c7ff;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 12px;
+  color: #333;
+}
+
 /* Footer */
 footer {
   background-color: #CAE8BD;
