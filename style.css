@@ -406,7 +406,6 @@ footer {
     padding: 35px 5% 60px;
   }
 
-
   /* Stack Hero */
 
   .about-layout {
@@ -423,7 +422,6 @@ footer {
   .about-content h1 {
     font-size: 3rem;
   }
-
 
   /* Move Cat Above Content */
 
@@ -445,7 +443,6 @@ footer {
   }
 }
 
-
 /* =========================
    Mobile
 ========================= */
@@ -454,6 +451,8 @@ footer {
 
   .site-header {
     height: 60px;
+    justify-content: center;
+    padding: 0;
   }
 
   .main-content {
@@ -462,14 +461,13 @@ footer {
 
 
   .logo {
-    font-size: 1.15rem;
+    font-size: 1.8rem;
   }
-
 
   /* Heading */
 
   .about-content h1 {
-    font-size: 2.5rem;
+    font-size: 2.15rem;
   }
 
   .about-content>p {
@@ -480,6 +478,13 @@ footer {
     font-size: 1.05rem !important;
   }
 
+  .journey p {
+  font-size: 0.9rem;
+  }
+
+  .journey h2 {
+  font-size: 1.45rem;
+  }
 
   /* Tags */
 
@@ -492,6 +497,9 @@ footer {
     font-size: 0.82rem;
   }
 
+  .experience h2 {
+  font-size: 1.6rem;
+  } 
 
   /* Cat */
 
@@ -507,13 +515,15 @@ footer {
     border-radius: 16px;
   }
 
-
   /* Fun Facts */
 
   .fun-facts ul {
     grid-template-columns: 1fr;
   }
 
+  .fun-facts h2 {
+  font-size: 1.6rem;
+  }
 
   /* Cat Game */
 
@@ -533,7 +543,6 @@ footer {
     width: 95px;
     height: 95px;
   }
-
 
   /* Footer */
 
