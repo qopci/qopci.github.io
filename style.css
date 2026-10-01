@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #fff1f6;
+  background-color: #f5f9ff;
   color: #3F3940;
   line-height: 1.7;
 }
@@ -22,7 +22,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff1f6;
+  background-color: #f5f9ff;
 }
 
 .logo {
@@ -57,9 +57,9 @@ body {
   padding: 6px 15px;
   margin-bottom: 20px;
   background-color: #FFFFFF;
-  border: 1px solid #EADBE3;
+  border: 2px solid #94a9d3;
   border-radius: 30px;
-  color: #8B7F88;
+  color: #7f808b;
   font-size: 0.86rem;
   font-weight: 500;
   letter-spacing: 1.5px;
@@ -68,13 +68,13 @@ body {
 .about-content h1 {
   max-width: 700px;
   margin-bottom: 25px;
-  color: #60273e;
+  color: #292760;
   font-size: clamp(2.8rem, 5vw, 4.5rem);
   line-height: 1.08;
   letter-spacing: -1.5px;
 
   text-shadow:
-    2px 2px 0 #F6D2DF,
+    2px 2px 0 #c0bef8,
     3px 4px 8px rgba(189, 62, 113, 0.18);
 }
 
@@ -85,7 +85,7 @@ body {
 .about-content>p {
   max-width: 700px;
   margin-bottom: 20px;
-  color: #625B62;
+  color: #5b5c62;
   font-size: 1.08rem;
 }
 
@@ -109,9 +109,9 @@ body {
 .tags span {
   padding: 8px 15px;
   background-color: #FFFFFF;
-  border: 1px solid #EADBE3;
+  border: 2px solid #d3d5f3;
   border-radius: 25px;
-  color: #6F646D;
+  color: #64666f;
   font-size: 0.9rem;
   box-shadow: 0 2px 8px rgba(80, 60, 70, 0.05);
 
@@ -152,7 +152,7 @@ body {
 
 .journey h2 {
   margin-bottom: 15px;
-  color: #405e5e;
+  color: #598989;
   font-size: 1.65rem;
 }
 
@@ -162,14 +162,14 @@ body {
   font-size: 0.98rem;
 }
 
-.cat-side {
+.profile-side {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 20px;
 }
 
-.cat-frame {
+.profile-frame {
   width: 100%;
   max-width: 520px;
   aspect-ratio: 1 / 1;
@@ -185,7 +185,7 @@ body {
   overflow: hidden;
 }
 
-.cat-frame img {
+.profile-frame img{
   width: 100%;
   height: 100%;
   display: block;
@@ -207,7 +207,7 @@ body {
 
 .experience h2 {
   margin-bottom: 30px;
-  color: #9b4305;
+  color: #05629b;
   font-size: 2rem;
 }
 
@@ -251,8 +251,8 @@ body {
   display: inline-block;
   margin-top: 5px;
   padding: 6px 12px;
-  background-color: #FBE5ED;
-  border: 1px solid #E7BFCF;
+  background-color: #e7fdf7;
+  border: 2px solid #23714c;
   border-radius: 20px;
   color: #716871;
   font-size: 0.8rem;
@@ -265,7 +265,7 @@ body {
 
 .fun-facts h2 {
   margin-bottom: 25px;
-  color: #3b1571;
+  color: #6d4c9b;
   font-size: 2rem;
 }
 
@@ -356,7 +356,7 @@ body {
 
 footer {
   padding: 25px 7%;
-  background-color: #fff1f6;
+  background-color: #f5f9ff;
 }
 
 .footer-content {
