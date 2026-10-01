@@ -10,8 +10,13 @@ html {
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f5f9ff;
-  color: #3F3940;
+  background: linear-gradient(
+    135deg,
+    #F7FCFF 0%,
+    #EEF7FC 45%,
+    #DCEFF8 100%
+  );
+  color: #3D4B55;
   line-height: 1.7;
 }
 
@@ -22,7 +27,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #f5f9ff;
+  background-color: transparent;
 }
 
 .logo {
@@ -174,12 +179,12 @@ body {
   max-width: 520px;
   aspect-ratio: 1 / 1;
   padding: 10px;
-  background-color: #fcedf6;
-  border: 2px solid #E8B8CB;
+  background-color: #edeffc;
+  border: 2px solid #ceb8e8;
   border-radius: 35px;
 
   box-shadow:
-    0 8px 0 #F4D6E1,
+    0 8px 0 #d6d7f4,
     0 15px 30px rgba(180, 100, 130, 0.15);
 
   overflow: hidden;
@@ -191,7 +196,7 @@ body {
   display: block;
   object-fit: cover;
   border-radius: 27px;
-  background-color: #FBE5ED;
+  background-color: #e5e9fb;
 }
 
 .cat-caption {
@@ -202,7 +207,7 @@ body {
 }
 
 .experience {
-  margin-top: 50px;
+  margin-top: 35px;
 }
 
 .experience h2 {
@@ -221,7 +226,7 @@ body {
   width: 100%;
   padding: 25px;
   background-color: #FFFFFF;
-  border: 1px solid #EADBE3;
+  border: 3px solid #dbeae1;
   border-radius: 18px;
   box-shadow: 0 3px 10px rgba(80, 60, 70, 0.05);
 
@@ -356,7 +361,7 @@ body {
 
 footer {
   padding: 25px 7%;
-  background-color: #f5f9ff;
+  background-color: transparent;
 }
 
 .footer-content {
