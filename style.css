@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+/* Custom Cat Cursor */
+body {
+  cursor: url("images/cat-paw-normal.png") 4 4, auto;
+}
+
+a:hover,
+button:hover,
+.cat-sticker:hover {
+  cursor: url("images/cat-paw-hover.png") 4 4, pointer;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -212,7 +223,7 @@ body {
 
 .experience h2 {
   margin-bottom: 30px;
-  color: #05629b;
+  color: #a35581;
   font-size: 2rem;
 }
 
@@ -300,7 +311,9 @@ body {
   height: auto;
   display: block;
   margin: 0 auto 22px;
-  border: 2px solid #484444;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 8px 22px rgba(214, 120, 165, 0.35);
 }
 
 .project-tag {
@@ -613,7 +626,9 @@ footer {
     height: auto;
     display: block;
     margin: 0 auto 22px;
-    border: 1px solid #000000;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 7px 18px rgba(214, 120, 165, 0.35);
   }
 
   .project-date {
