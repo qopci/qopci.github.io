@@ -87,7 +87,7 @@ body {
   white-space: nowrap;
 }
 
-.about-content>p {
+.about-content > p {
   max-width: 700px;
   margin-bottom: 20px;
   color: #5b5c62;
@@ -190,7 +190,7 @@ body {
   overflow: hidden;
 }
 
-.profile-frame img{
+.profile-frame img {
   width: 100%;
   height: 100%;
   display: block;
@@ -260,6 +260,39 @@ body {
   margin-bottom: 15px;
   color: #665F65;
   font-size: 0.95rem;
+}
+
+/* =========================
+   Project Skills
+========================= */
+
+.project-skills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 20px 0 22px;
+}
+
+.project-skills span {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #fef2fd;
+  border: 2px solid #bdab99;
+  border-radius: 20px;
+  color: #000000;
+  font-size: 0.8rem;
+  line-height: 1.3;
+  white-space: nowrap;
+
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.project-skills span:hover {
+  transform: translateY(-2px);
+  background-color: #e4cdeb;
 }
 
 .project-image {
@@ -467,6 +500,17 @@ footer {
     width: 80%;
     height: auto;
   }
+
+  /* Project Skills */
+
+  .project-skills {
+    gap: 7px;
+  }
+
+  .project-skills span {
+    font-size: 0.78rem;
+    padding: 6px 10px;
+  }
 }
 
 /* =========================
@@ -497,20 +541,20 @@ footer {
   }
 
   .profile-frame {
-  width: 90%;
-  max-width: 300px;
-  aspect-ratio: 1 / 1;
-  padding: 10px;
-  margin: 0 auto;
-  border-radius: 0;
+    width: 90%;
+    max-width: 300px;
+    aspect-ratio: 1 / 1;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 0;
   }
 
   .profile-frame img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
-  border-radius: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 0;
   }
 
   /* Heading */
@@ -565,15 +609,27 @@ footer {
   }
 
   .project-image {
-  width: 95%;
-  height: auto;
-  display: block;
-  margin: 0 auto 22px;
-  border: 1px solid #A9D4E9;
+    width: 95%;
+    height: auto;
+    display: block;
+    margin: 0 auto 22px;
+    border: 1px solid #000000;
   }
 
   .project-date {
     font-size: 0.82rem;
+  }
+
+  /* Project Skills */
+
+  .project-skills {
+    gap: 6px;
+    margin: 18px 0 20px;
+  }
+
+  .project-skills span {
+    padding: 5px 9px;
+    font-size: 0.72rem;
   }
 
   /* Fun Facts */
