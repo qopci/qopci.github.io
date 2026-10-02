@@ -226,13 +226,23 @@ body {
   width: 100%;
   padding: 25px;
   background-color: #FFFFFF;
-  border: 3px solid #dbeae1;
+  border: 3px solid #d7ecdf;
   border-radius: 18px;
   box-shadow: 0 3px 10px rgba(80, 60, 70, 0.05);
 
   transition:
     transform 0.25s ease,
     box-shadow 0.25s ease;
+}
+
+.project-date {
+  display: block;
+  margin-top: -10px;
+  margin-bottom: 18px;
+  color: #474d51;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-style: italic;
 }
 
 .project-card:hover {
@@ -250,6 +260,14 @@ body {
   margin-bottom: 15px;
   color: #665F65;
   font-size: 0.95rem;
+}
+
+.project-image {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto 22px;
+  border: 2px solid #484444;
 }
 
 .project-tag {
@@ -305,7 +323,6 @@ body {
   text-align: center;
   background-color: #e1e2f2;
   border-radius: 25px;
-  border: 2px solid #ddd1e7;
 }
 
 #cat-stickers h2 {
@@ -415,7 +432,6 @@ footer {
 
   .about-layout {
     grid-template-columns: 1fr;
-
     gap: 40px;
 
   }
